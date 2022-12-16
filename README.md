@@ -31,10 +31,14 @@ Obten datos, servicio de 3eros:
 	
 	
 # Ejecutar el proyecto
-1)  [instalar node](https://nodejs.org/es/download/)
+1) [instalar node](https://nodejs.org/es/download/)
 2) Instalar el manejador de paquetes **yarn** `npm install --global yarn` 
-3) Para instalar todas las dependencias ejecutar `yarn install`
-4) Para levantar el proyecto hay 2 formas :
+3) Instalen las siguientes extensiones en vscode 
+*  [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+*  [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+*  [Error lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+4) Para instalar todas las dependencias ejecutar `yarn install`
+5) Para levantar el proyecto hay 2 formas :
 * `yarn run dev` ejecuta en modo desarrollo levantando las variables de ambiente en el archivo **development.env**
 * `yarn run start` ejecuta en modo producción levantando las variables de ambiente en el archivo **production.env**
 
